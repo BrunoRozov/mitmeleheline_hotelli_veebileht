@@ -168,3 +168,18 @@ h1 {
     padding: 50px;
     text-align: center;
 }
+
+#features .box span {
+    margin-bottom: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #444;
+    color: #fff;
+}
+
+.clear {
+    clear: both;
+}
