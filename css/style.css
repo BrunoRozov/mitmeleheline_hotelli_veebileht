@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
 h1, h2 {
     padding-bottom: 20px;
 }
@@ -64,6 +68,16 @@ h1 {
 .bg-dark {
     background: #333;
     color: #fff;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333
+}
+
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
 }
 
 #navbar {
@@ -146,4 +160,11 @@ h1 {
     width: 50%;
     background: url('../info-1.jpg') no-repeat center center/cover;
     height: 100%;
+}
+
+#features .box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
 }
