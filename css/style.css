@@ -9,6 +9,12 @@
 html, body {
     font-family: 'Segoe UI', 'Tahoma', 'Verdana', sans-serif;
     line-height: 1.7em;
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -178,10 +184,14 @@ footer {
     padding: 20px;
     background: #444;
     color: #fff;
+    margin-top: auto;
 }
 
 .clear {
-    clear: both;
+    display: flex;
+    min-height: none;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #about-info .info-left {
