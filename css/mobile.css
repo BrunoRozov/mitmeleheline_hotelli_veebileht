@@ -60,7 +60,11 @@
     text-align: center;
 }
 
-.container {
-    float: none;
+#contact-form form {
     width: 100%;
+}
+
+#testimonials .testimonial.bg-primary {
+    padding: 10px;
+    text-align: center;
 }
